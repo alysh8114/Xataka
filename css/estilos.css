@@ -1,0 +1,242 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4b8a20;
+}
+.cont{
+    width: 900px;
+    height: 1200px;
+    background-color: #fff;
+    margin: auto;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+
+    overflow: hidden;
+    background-color: #333;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav li a {    
+    text-decoration: none;
+    color: #f2f2f2;
+    background-color: #333;
+    display: block;
+    padding: 10px 16px;
+    font-size: 17px;
+}
+
+.flecha{
+    color: #ddd;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-top: solid 3px;
+    border-right: solid 3px;
+}
+    
+.flecha-derecha{
+    transform: rotate(45deg);
+}
+.flecha-abajo{
+    transform: rotate(135deg);
+}
+.flecha-arriba{
+    transform: rotate(315deg);
+}
+
+.menuprincipal{
+    float: left;
+}
+nav li a:hover{
+    background-color: #ddd;
+    color: black;
+}
+nav li ul{
+    position: absolute;
+    min-width: 140px;
+    display: none; 
+}
+nav li:hover > ul{
+    display: block;
+}
+/*  */
+.contenido{
+    margin: 10px;
+}
+.primero{
+    width: 57%;  
+    height: 360px; 
+    margin-left: 1px;
+    margin-top: 15px;
+    float: left;
+}
+.primero a img{
+    width: auto;
+    float: left;
+    margin-left: 20px;
+
+}
+aside{
+    width: 40%;  
+    height: 260px;
+    margin-right: 11px;
+    margin-top: 15px;    
+    margin-left: 10px;
+    float: right;
+}
+aside div .reco{
+    width: 45%;  /*ancho*/
+    height: 420px;  /*altura*/
+    margin-left: -4px;
+    margin-top: 5px;
+    float: left;
+}
+/*  */
+.formulario{
+    width: 100%;
+    height: auto;
+}
+fieldset{
+    background-color: #EBECF1;
+    
+}
+input {
+    background-color:#fff;
+    border-radius: 0px;
+    height: 20px;
+    width: 283px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-color: #E7E7E7;
+}
+textarea{
+    background-color:#fff;
+    border-radius: 0px;
+    width: 283px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-color: #E7E7E7 20px;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4b8a20 ;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 5px ;
+    border: #4b8a20;
+}
+button:hover{
+    background-color: #333;
+}
+.subir{
+    background-color: #333 ;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 5px ;
+    border: #333;
+    text-decoration: none;
+    float: right;
+
+}
+.subir:hover{
+    background-color: rgb(99, 97, 97);
+    width: 100px;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 5px ;
+}
+/*  */
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 880px;  
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 650px;    
+    float: left;
+    background-color: #000;
+    color: #ddd;
+}
+footer a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #333;
+}
+footer a:hover{
+    background-color: #333;
+    color:#E7E7E7 ;
+    width: 100px;
+    padding: 5px;
+    border-radius: 3px ;
+    border: #E7E7E7;
+    
+}
+.uno {
+    width: 20%;  
+    height: 360px; 
+    margin-left: 1px;
+    margin-top: 15px;
+    float: left;
+}
+.dos {
+    width: 20%;  
+    height: 360px; 
+    margin-left: 1px;
+    margin-top: 15px;
+    float: left;
+}
+.tres{
+    width: 20%;  
+    height: 360px; 
+    margin-left: 1px;
+    margin-top: 15px;
+    float: left;
+
+}
+.cuatro {
+    width: 20%;  
+    height: 360px; 
+    margin-left: 1px;
+    margin-top: 15px;
+    float: left;
+
+}
+.cinco {
+    width: 19%;  
+    height: 360px; 
+    margin-left: 1px;
+    margin-top: 15px;
+    float: left;
+
+}
+/*  */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+thead{
+    background-color: #4CAAC6;
+    color: #fff;
+}
+td, th {
+  border: 1px solid #92cfe3;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #CBF4FA;
+}
+tbody:nth-child(even) {
+    background-color: #A7D6E6;
+  }

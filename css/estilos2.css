@@ -7,7 +7,7 @@ body{
 }
 .cont{
     width: 900px;
-    height: 1300px;
+    height: 1350px;
     background-color: #fff;
     margin: auto;
 }
@@ -109,11 +109,10 @@ fieldset{
 }
 input {
     background-color:#fff;
-    border-radius: 0px;
-    height: 20px;
-    width: 283px;
-    padding-left: 20px;
-    padding-right: 10px;
+    height: 25px;
+    width: 201px;
+    padding-left: 5px;
+    padding-right: 5px;
     border-color: #E7E7E7;
 }
 textarea{
@@ -122,7 +121,7 @@ textarea{
     width: 283px;
     padding-left: 20px;
     padding-right: 10px;
-    border-color: #E7E7E7 20px;
+    border-color: #E7E7E7 ;
 }
 button{
     font-family: 'Roboto', sans-serif;
@@ -163,7 +162,7 @@ footer{
     width: 880px;  
     height: 300px;
     margin-left: 0px;
-    margin-top: 680px;    
+    margin-top: 790px;    
     float: left;
     background-color: #000;
     color: #ddd;
@@ -226,6 +225,11 @@ table {
     font-family: 'Roboto', sans-serif;
     border-collapse: collapse;
     width: 100%;
+}
+.primero a{
+    color: #333;
+    text-decoration: none;
+
 }
 thead{
     background-color: #4CAAC6;
@@ -294,14 +298,14 @@ tbody:nth-child(even) {
     aside{
         width: 100%;
         margin: auto;
-        margin-top: 780px;    
+        margin-top: 800px;    
 
     }
 }
 @media screen and (max-width: 900px){
     footer{
         width: 96%;
-        height: 525px;
+        height: 400px;
         font-size: 10px;
 
     }

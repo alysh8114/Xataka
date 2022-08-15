@@ -162,7 +162,7 @@ footer{
     width: 880px;  
     height: 320px;
     margin-left: 0px;
-    margin-top: 830px;    
+    margin-top: 630px;    
     float: left;
     background-color: #000;
     color: #ddd;
@@ -298,7 +298,7 @@ tbody:nth-child(even) {
     aside{
         width: 100%;
         margin: auto;
-        margin-top: 800px;    
+        margin-top: 1200px;    
 
     }
 }

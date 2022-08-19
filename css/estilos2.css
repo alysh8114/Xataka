@@ -294,12 +294,27 @@ tbody:nth-child(even) {
         max-width: 900px;
     }
 }
+
+
 @media screen and (max-width: 900px){
     aside{
         width: 100%;
         margin: auto;
-        margin-top: 800px;    
+        margin-top: 1150px;    
 
+    }
+    aside img{
+        width: auto;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formulario{
+        width: 100%;
+        margin: auto;
+        margin-top: 500px; 
     }
 }
 @media screen and (max-width: 900px){

@@ -162,7 +162,7 @@ footer{
     width: 880px;  
     height: 320px;
     margin-left: 0px;
-    margin-top: 630px;    
+    margin-top: 700px;    
     float: left;
     background-color: #000;
     color: #ddd;
@@ -298,8 +298,20 @@ tbody:nth-child(even) {
     aside{
         width: 100%;
         margin: auto;
-        margin-top: 1200px;    
+        margin-top: 1150px;    
 
+    }
+     aside img{
+        width: auto;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .formulario{
+        width: 100%;
+        margin: auto;
+        margin-top: 500px; 
     }
 }
 @media screen and (max-width: 900px){
